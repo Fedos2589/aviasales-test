@@ -1,0 +1,9 @@
+@import '../../containers/App/App.scss';
+
+.sortItem {
+    @extend .caption;
+
+    width: 50%;
+    text-align: center;
+    margin: 15px 0;
+}

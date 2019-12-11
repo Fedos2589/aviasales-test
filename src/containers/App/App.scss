@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 750px;
+
+    .icon-container {
+        width: 100%;
+        text-align: center;
+
+        .top-icon {
+            width: 50px;
+            height: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .caption {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 600px;
+    }
+}
